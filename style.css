@@ -94,7 +94,33 @@ header i{
     width: 860px;
 }
 
-
+.section3{
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #99B5EB;
+    align-items: center;
+    text-align: center;
+}
+.section3 h1{
+    width: 850px;
+    font-size: 48px;
+}
+.section3 p{
+    font-size: 30px;
+    width: 850px;
+}
+.section4{
+    background-color: #99C2A5;
+}
+.section4 h1{
+    width: 640px;
+}
+.section5{
+    background-color: #F9E78A;
+}
+ 
 
 
 
@@ -128,5 +154,23 @@ header i{
     .section2 h1{
         font-size: 26px;
         width: 100%;
+    }
+    .section3 h1{
+    width: 100%;
+    font-size: 30px;
+    }
+    .section3 p{
+    font-size: 18px;
+    width: 100%;
+    }
+    .section4{
+        overflow: hidden;
+        gap: 30px !important;
+    }
+    .section4 h1{
+        width: 80%;
+    }
+    .section4 img{
+        align-self: flex-start;
     }
 }
