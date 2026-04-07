@@ -78,8 +78,21 @@ header i{
 .sect1cont p:last-child{
     font-size: 14px;
     align-self: center;
+    margin-top: -20px;
 }
 
+.section2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #F5F7F8;
+}
+.section2 h1{
+    font-size: 40px;
+    font-weight: 400;
+    width: 860px;
+}
 
 
 
@@ -111,6 +124,9 @@ header i{
     }
     .section1 p:last-child{
         font-size: 12px;
-        margin-top: -20px;
+    }
+    .section2 h1{
+        font-size: 26px;
+        width: 100%;
     }
 }
