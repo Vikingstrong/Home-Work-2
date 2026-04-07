@@ -5,7 +5,7 @@
 }
 header{
     display: flex;
-    padding: 25px 0px;
+    padding: 20px;
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
@@ -26,4 +26,91 @@ header h2:last-child{
 header span{
     font-weight: 400;
     color: #6B6B6B;
+}
+header i{
+    display: none !important;
+}
+
+.section1{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+.sect1cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sect1cont h1{
+    font-size: 56px;
+    width: 530px;
+}
+.sect1cont p{
+    font-size: 36px;
+    width: 505px;
+}
+.section1 form{
+    width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.section1 input{
+    padding: 10px;
+    width: 305px;
+    border-radius: 3px;
+}
+.section1 input::placeholder{
+    font-size: 18px;
+}
+.section1 button{
+    width: 99.6%;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: #3D68E1;
+    border-radius: 3px;
+    border: none;
+}
+.sect1cont p:last-child{
+    font-size: 14px;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    header div, .section1 img{
+        display: none !important;
+    }
+    header i{
+        display: block !important;
+        font-size: 30px;
+    }
+    .section1 h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .section1 p{
+        font-size: 16px;
+        width: 100%;
+    }
+    .section1 form{
+        width: 100%;
+    }
+    .section1 button{
+        width: 328px;
+    }
+    .section1 p:last-child{
+        font-size: 12px;
+        margin-top: -20px;
+    }
 }
