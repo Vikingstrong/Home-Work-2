@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    display: flex;
+    padding: 25px 0px;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+header div{
+    display: flex;
+    gap: 20px;
+}
+header h2{
+    font-size: 16px;
+    border-right: 1px solid #C4C4C4;
+    padding-right: 50px;
+}
+header h2:last-child{
+    border: none;
+}
+header span{
+    font-weight: 400;
+    color: #6B6B6B;
+}
