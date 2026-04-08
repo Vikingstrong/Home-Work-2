@@ -162,6 +162,42 @@ header i{
 .infobox span{
     font-weight: 400;
 }
+.section7{
+    background-color: #F5F7F8;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 50px 20px;
+}
+.section7 h1{
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+.section7 h2{
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+    position: relative;
+    width: 800px;
+    padding-right: 25px;
+}
+.section7 span{
+    font-size: 50px;
+    font-weight: 300;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+
+
 
 
 @media (max-width: 500px) {
@@ -218,8 +254,14 @@ header i{
         font-size: 18px;
         width: 100%;
     }
-
     .sect6cont{
         flex-direction: column;
+    }
+    .section7 h1{
+        font-size: 30px;
+    }
+    .section7 h2{
+        width: 300px;
+        font-size: 20px;
     }
 }
