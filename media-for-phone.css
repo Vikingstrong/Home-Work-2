@@ -1,0 +1,88 @@
+@media (max-width: 500px) {
+    header div, .section1 img{
+        display: none !important;
+    }
+    header i{
+        display: block !important;
+        font-size: 30px;
+    }
+    .section1 h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .section1 p{
+        font-size: 16px;
+        width: 100%;
+    }
+    .section1 form{
+        width: 100%;
+    }
+    .section1 button{
+        width: 328px;
+    }
+    .section1 p:last-child{
+        font-size: 12px;
+    }
+    .section2 h1{
+        font-size: 26px;
+        width: 100%;
+    }
+    .section3 h1{
+    width: 100%;
+    font-size: 30px;
+    }
+    .section3 p{
+    font-size: 18px;
+    width: 100%;
+    }
+    .section4{
+        overflow: hidden;
+        gap: 30px !important;
+    }
+    .section4 h1{
+        width: 80%;
+    }
+    .section4 img{
+        align-self: flex-start;
+    }
+    .section6 h1{
+        font-size: 30px;
+    }
+    .section6 p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .sect6cont{
+        flex-direction: column;
+    }
+    .section7 h1{
+        font-size: 30px;
+    }
+    .section7 h2{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    footer form{
+        width: 360px;
+    }
+    footer input{
+        width: 100%;
+    }
+    footer h1{
+        font-size: 31px;
+    }
+    footer h2{
+        font-size: 16px;
+        width: 180px;
+    }
+    footer p{
+        font-size: 14px;
+        width: 218px;
+        text-align: center;
+    }
+    footer form p{
+        font-size: 13px;
+        width: 100%;
+    }
+}
